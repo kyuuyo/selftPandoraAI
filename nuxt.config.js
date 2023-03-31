@@ -6,7 +6,7 @@ export default defineNuxtConfig({
     ssr: false,
     runtimeConfig: {
         public: {
-            apiBaseUrl: process.env.API_BASE_URL,
+            apiBaseUrl: process.env.API_BASE_URL || 'http://185.242.233.45/chat',
         },
     },
     imports: {
