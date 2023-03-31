@@ -4,9 +4,9 @@ module.exports = {
         {
             name: 'fe-ai',
             host: '0.0.0.0',
-            port: '3001',
+            port: '3005',
             exec_mode: 'cluster',
-            instances: 'max',
+            instances: '1',
             script: './.output/server/index.mjs',
         },
     ],
