@@ -1,8 +1,5 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-    server: {
-        port: 3001, // 默认: 3000
-    },
     ssr: false,
     runtimeConfig: {
         public: {
