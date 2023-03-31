@@ -3,6 +3,7 @@ module.exports = {
     apps: [
         {
             name: 'fe-ai',
+            host: '0.0.0.0',
             port: '3003',
             exec_mode: 'cluster',
             instances: 'max',
