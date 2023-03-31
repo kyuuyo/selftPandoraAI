@@ -2,8 +2,6 @@
 export default defineNuxtConfig({
     app: {
         baseURL: '/pandora/',
-        websiteURL: '/pandora/',
-        buildAssetsDir: '/pandora/_nuxt/',
     },
     ssr: false,
     runtimeConfig: {
