@@ -2,7 +2,7 @@
 module.exports = {
     apps: [
         {
-            name: 'PandoraAI-fe',
+            name: 'fe-ai',
             port: '3003',
             exec_mode: 'cluster',
             instances: 'max',
