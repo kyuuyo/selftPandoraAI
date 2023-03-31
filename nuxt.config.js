@@ -1,8 +1,10 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+    app: {
+        websiteURL: '/pandora/',
+        buildAssetsDir: '/pandora/_nuxt/',
+    },
     ssr: false,
-    websiteURL: '/pandora/',
-    buildAssetsDir: '/pandora/_nuxt/',
     runtimeConfig: {
         public: {
             apiBaseUrl: process.env.API_BASE_URL,
