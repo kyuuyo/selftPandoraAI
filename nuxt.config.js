@@ -1,10 +1,10 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-    baseURL: '/pandora/',
     ssr: false,
     runtimeConfig: {
         public: {
             apiBaseUrl: process.env.API_BASE_URL,
+            websiteURL: 'http://185.242.233.45/pandora',
         },
     },
     imports: {
