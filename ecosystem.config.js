@@ -3,12 +3,10 @@ module.exports = {
     apps: [
         {
             name: 'PandoraAI-fe',
+            port: '3003',
             exec_mode: 'cluster',
             instances: 'max',
             script: './.output/server/index.mjs',
-            env: {
-                PORT: 3001,
-            },
         },
     ],
 };
