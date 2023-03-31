@@ -4,7 +4,8 @@ export default defineNuxtConfig({
     runtimeConfig: {
         public: {
             apiBaseUrl: process.env.API_BASE_URL,
-            websiteURL: 'http://185.242.233.45/pandora',
+            websiteURL: '/pandora/',
+            buildAssetsDir: '/pandora/_nuxt/',
         },
     },
     imports: {
